@@ -100,8 +100,13 @@ export const skillsData = [
   "GraphQL",
   "Apollo",
   "Express",
+  "Nest JS",
   "PostgreSQL",
   "Python",
   "Django",
   "Framer Motion",
+  "AWS",
+  "GCP",
+  "Docker",
+  "Kubernetes",
 ] as const;
