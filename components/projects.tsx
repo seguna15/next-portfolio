@@ -7,7 +7,7 @@ import Project from './project'
 import { useSectionInView } from '@/lib/hooks';
 
 
-export const Projects = () => {
+export default function Projects () {
   const { ref } = useSectionInView("Projects");
 
   return (

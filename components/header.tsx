@@ -6,16 +6,19 @@ import { links } from '@/lib/data';
 import Link from 'next/link';
 import clsx from 'clsx';
 import { useActiveSectionContext } from '@/context/active-section-context';
-import type { SectionNameType } from '@/lib/type';
+import { SectionNameType } from '@/lib/type';
 
 export default function Header() {
     
     const {activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
 
-    const handleActive = (sectionName: SectionNameType) => {
-      setActiveSection(sectionName);
-      setTimeOfLastClick(Date.now());
-    };
+     const handleActive = (sectionName: SectionNameType) => {
+         setActiveSection(sectionName);
+         setTimeOfLastClick(Date.now());
+    }
+     
+    
+   
 
   return (
     <header className='z-[999] relative'>

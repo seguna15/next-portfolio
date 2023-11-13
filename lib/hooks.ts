@@ -21,3 +21,10 @@ export function useSectionInView(sectionName:SectionNameType, threshold = 0.75 )
         ref,
     };
 } 
+
+/* export function useHandleActive (sectionName: SectionNameType) {
+   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+   
+    setActiveSection(sectionName);
+    setTimeOfLastClick(Date.now());
+}; */
