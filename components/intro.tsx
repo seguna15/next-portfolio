@@ -69,8 +69,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Adisa.</span> A result driven{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">Hello, I'm Oluwasegun.</span> A result
+        driven <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">6 years</span> hands-on experience. I enjoy
         building <span className="italic">websites & apps</span>. I also love{" "}
         <span className="italic">teaching coding</span>. My focus is{" "}
@@ -99,7 +99,7 @@ export default function Intro() {
         <a
           href="/CV.pdf"
           download
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full  outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all cursor-pointer borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full  outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10"
         >
           Download CV{" "}
           <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
@@ -108,7 +108,7 @@ export default function Intro() {
         <a
           href="https://linkedin.com/in/oluwasegun-adisa-86734680"
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:text-gray-950 active:scale-[1.15] transition-all cursor-pointer borderBlack"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:text-gray-950 active:scale-[1.15] transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
@@ -116,7 +116,7 @@ export default function Intro() {
         <a
           href="https://github.com/seguna15"
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-110 active:scale-[1.15] hover:text-gray-950 transition-all cursor-pointer borderBlack"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-110 active:scale-[1.15] hover:text-gray-950 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>
